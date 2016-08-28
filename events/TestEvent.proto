@@ -1,0 +1,6 @@
+message TestEvent
+{
+required int32 id = 1;
+optional string name = 2;
+repeated float value = 3;
+}
